@@ -9,7 +9,6 @@ apps:
 	$(MAKE) -C meshconvert
 	$(MAKE) -C scene2pset
 	$(MAKE) -C sfmrecon
-	$(MAKE) -C mveshell
 
 clean:
 	$(MAKE) -C bundle2ply $@
@@ -18,6 +17,5 @@ clean:
 	$(MAKE) -C meshconvert $@
 	$(MAKE) -C scene2pset $@
 	$(MAKE) -C sfmrecon $@
-	$(MAKE) -C mveshell $@
 
 .PHONY: all clean
